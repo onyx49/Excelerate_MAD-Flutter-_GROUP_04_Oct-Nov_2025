@@ -126,3 +126,38 @@ Home Screen
 - Drawer Navigation (Profile, Dashboard)
 
 
+
+---
+
+## 🛠️ Tech Stack (Planned)
+- **Frontend:** React Native / Flutter  
+- **Backend:** Node.js / Firebase / Express  
+- **Database:** Firestore / MongoDB  
+- **Authentication:** Firebase Auth / OAuth2  
+- **Design:** Figma / Adobe XD  
+
+---
+
+## 👥 Target Users
+- **Learners:** Track academic performance, tasks, and communication.  
+- **Educators:** Manage students, courses, and performance insights.
+
+---
+
+## 🚀 Future Enhancements
+- Push notifications for tasks and announcements  
+- In-app grading or assessment system  
+- Analytics dashboard for educators  
+- Multi-language support  
+
+---
+  
+
+---
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+
