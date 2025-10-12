@@ -111,10 +111,8 @@ Home Screen
 
 
 ## 👥 Target Users
-- Students
-- Self-learners
-- Tutors
-- Teachers
+- **Learners:** Track academic performance, tasks, and communication.  
+- **Educators:** Manage students, courses, and performance insights.
 
 
 
@@ -125,22 +123,6 @@ Home Screen
 - Program Details Screen
 - Drawer Navigation (Profile, Dashboard)
 
-
-
----
-
-## 🛠️ Tech Stack (Planned)
-- **Frontend:** React Native / Flutter  
-- **Backend:** Node.js / Firebase / Express  
-- **Database:** Firestore / MongoDB  
-- **Authentication:** Firebase Auth / OAuth2  
-- **Design:** Figma / Adobe XD  
-
----
-
-## 👥 Target Users
-- **Learners:** Track academic performance, tasks, and communication.  
-- **Educators:** Manage students, courses, and performance insights.
 
 ---
 
