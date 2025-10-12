@@ -14,3 +14,22 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+## 👥 Target Users
+- Students
+- Self-learners
+- Tutors
+- Teachers
+
+--
+
+## 📝 Features (MVP)
+- Landing screen
+- Alternate Registration/Login for Teachers and Students.
+- Course Overview (Home Page) 
+- Program Details Screen
+- Drawer Navigation (Profile, Dashboard)
+
+--
+
