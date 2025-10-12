@@ -31,5 +31,4 @@ samples, guidance on mobile development, and a full API reference.
 - Program Details Screen
 - Drawer Navigation (Profile, Dashboard)
 
-__
 
