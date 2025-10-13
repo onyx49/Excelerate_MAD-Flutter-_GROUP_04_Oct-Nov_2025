@@ -18,7 +18,7 @@ We aim to empower learners with clear visibility of their educational journey, w
    Provide a clear, visual representation of learning or teaching progress through intuitive dashboards.
 
 4. **Support Dual Roles**  
-   Design the app to adapt based on whether the user is a *learner* or an *educator*, offering tailored features for each.
+   The app is designed to adapt based on whether the user is a *learner* or an *educator*, offering tailored features for each.
 
 5. **Ensure Accessibility & Usability**  
    Deliver a clean, user-friendly mobile interface with smooth navigation, responsive layouts, and customizable themes.
