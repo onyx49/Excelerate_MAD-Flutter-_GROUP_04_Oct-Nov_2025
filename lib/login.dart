@@ -103,11 +103,7 @@ class loginScreenState extends State<loginScreen> {
 
               // Log in button
               ElevatedButton(
-                onPressed: () {
-                  debugPrint('Email: ${emailField.text}');
-                  debugPrint('Password: ${passwordField.text}');
-                  debugPrint('Role: $startRole');
-                },
+                onPressed: () => context.go('/home', extra: startRole),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Color.fromARGB(142, 111, 13, 197),
                   minimumSize: const Size(double.infinity, 50),

@@ -122,7 +122,7 @@ class signupScreenState extends State<signupScreen> {
                   debugPrint('Navigate to home screen');
                 },
                 style: ElevatedButton.styleFrom(
-                   backgroundColor: Colors.purple,
+                   backgroundColor: Color.fromARGB(142, 111, 13, 197),
                    minimumSize: const Size(double.infinity, 50),
                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                 ),
