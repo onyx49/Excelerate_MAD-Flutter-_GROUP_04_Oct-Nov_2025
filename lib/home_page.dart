@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+// import '/program_listing.dart';
 
 class DashboardPage extends StatelessWidget {
   final bool isLearner;
@@ -61,6 +62,11 @@ class DashboardPage extends StatelessWidget {
                   subtitle: 'Messages and conversations',
                   badgeCount: 3,
                   color: Colors.blueAccent,
+                   onTap: (){},
+                //   onTap: () => Navigator.push(
+                //   context,
+                //   MaterialPageRoute(builder: (_) => ProgramsPage()),
+                // ),
                 ),
                 DashboardCard(
                   icon: Icons.menu_book_rounded,
@@ -69,6 +75,13 @@ class DashboardPage extends StatelessWidget {
                       isLearner ? 'Your enrolled courses' : 'Manage your courses',
                   badgeCount: 0,
                   color: Colors.teal,
+                   onTap: (){
+                    context.push('/program_listing');
+                   },
+                //   onTap: () => Navigator.push(
+                //   context,
+                //   MaterialPageRoute(builder: (_) => ProgramsPage()),
+                // ),
                 ),
                 DashboardCard(
                   icon: Icons.check_box_outlined,
@@ -77,6 +90,11 @@ class DashboardPage extends StatelessWidget {
                       isLearner ? 'Your assignments' : 'Assignments and grading',
                   badgeCount: 5,
                   color: Colors.deepOrangeAccent,
+                   onTap: (){},
+                //   onTap: () => Navigator.push(
+                //   context,
+                //   MaterialPageRoute(builder: (_) => ProgramsPage()),
+                // ),
                 ),
                 DashboardCard(
                   icon: Icons.campaign_outlined,
@@ -85,6 +103,11 @@ class DashboardPage extends StatelessWidget {
                       isLearner ? 'Latest updates' : 'Post updates for learners',
                   badgeCount: 2,
                   color: Colors.deepPurpleAccent,
+                   onTap: (){},
+                //   onTap: () => Navigator.push(
+                //   context,
+                //   MaterialPageRoute(builder: (_) => ProgramsPage()),
+                // ),
                 ),
 
                 const SizedBox(height: 20),
@@ -142,6 +165,7 @@ class DashboardCard extends StatelessWidget {
   final String subtitle;
   final int badgeCount;
   final Color color;
+  final VoidCallback onTap;
 
   const DashboardCard({
     super.key,
@@ -150,6 +174,7 @@ class DashboardCard extends StatelessWidget {
     required this.subtitle,
     required this.badgeCount,
     required this.color,
+    required this.onTap
   });
 
   @override
@@ -167,7 +192,11 @@ class DashboardCard extends StatelessWidget {
           ),
         ],
       ),
-      child: ListTile(
+      child: InkWell(
+        borderRadius: BorderRadius.circular(16),
+        onTap: onTap,
+      
+       child: ListTile(
         leading: CircleAvatar(
           backgroundColor: color.withOpacity(0.1),
           radius: 24,
@@ -192,6 +221,7 @@ class DashboardCard extends StatelessWidget {
                 ),
               )
             : null,
+      ),
       ),
     );
   }

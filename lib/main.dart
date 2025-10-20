@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'screens/signup.dart';
-import 'screens/login.dart';
-import 'screens/home_page.dart';
 import 'appRouter.dart';
 
 void main() {
@@ -20,3 +17,5 @@ class CollabEaseApp extends StatelessWidget {
         );
   }
 }
+
+

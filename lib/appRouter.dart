@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'screens/login.dart';
-import 'screens/signup.dart';
-import 'screens/home_page.dart';
+import 'program_listing.dart';
+import '/login.dart';
+import '/signup.dart';
+import '/home_page.dart';
 
 // This file contains all screen paths for navigation
 final GoRouter appRouter = GoRouter(
@@ -16,7 +17,11 @@ final GoRouter appRouter = GoRouter(
       builder: (context, state) => const signupScreen(),
     ),
     GoRoute(
-      path: '/home',
+      path: '/program_listing',
+      builder: (context, state) => const ProgramsPage(),
+    ),
+    GoRoute(
+      path: '/home_page',
       builder: (context, state) {
         final role = state.extra as String?;
         final bool isLearner = role == 'Learner';
