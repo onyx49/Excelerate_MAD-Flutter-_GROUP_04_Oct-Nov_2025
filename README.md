@@ -110,6 +110,34 @@ Home Screen
 └── Announcements
 
 
+### Login page
+![screenshot](/Login.jpg)
+
+---
+<br>
+
+### Home page
+![screenshot](/home_page.jpg)
+
+---
+<br>
+<br>
+
+### Program Listing 
+![screenshot](/program_listing.jpg)
+
+---
+<br>
+<br>
+
+### Program Details
+![screenshot](/Program_details.jpg)
+
+---
+<br>
+<br>
+
+
 ## 👥 Target Users
 - **Learners:** Track academic performance, tasks, and communication.  
 - **Educators:** Manage students, courses, and performance insights.
