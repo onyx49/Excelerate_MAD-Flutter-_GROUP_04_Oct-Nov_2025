@@ -111,27 +111,27 @@ Home Screen
 
 
 ### Login page
-![screenshot](/Login.jpg)
+<img src="/Login.jpg" width=40% height=40%>
 
 ---
 <br>
 
 ### Home page
-![screenshot](/home_page.jpg)
+<img src="/home_page.jpg" width=35% height=35%>
 
 ---
 <br>
 <br>
 
 ### Program Listing 
-![screenshot](/program_listing.jpg)
+<img src="/program_listing.jpg" width=35% height=35%>
 
 ---
 <br>
 <br>
 
 ### Program Details
-![screenshot](/Program_details.jpg)
+<img src="/Program_details.jpg" width=35% height=35%>
 
 ---
 <br>
