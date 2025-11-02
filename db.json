@@ -115,6 +115,37 @@
     "comment": "Wow!!! I'm impressed",
     "createdAt": "2025-11-02T14:15:00Z"
   }
+],
+  "messages":[
+    {
+      [
+  {
+    "id": 1,
+    "senderName": "Prof. Michael Chen",
+    "senderInitials": "PMC",
+    "message": "Thanks for the feedback on my assignment!",
+    "timestamp": "2025-11-02T10:30:00Z",
+    "unreadCount": 2
+  },
+  {
+    "id": 2,
+    "senderName": "Dr. Emily Watson",
+    "senderInitials": "DEW",
+    "message": "When is the deadline for the project?",
+    "timestamp": "2025-11-02T07:30:00Z",
+    "unreadCount": 1
+  },
+  {
+    "id": 3,
+    "senderName": "Prof. James Brown",
+    "senderInitials": "PJB",
+    "message": "Great class today!",
+    "timestamp": "2025-11-01T08:00:00Z",
+    "unreadCount": 0
+  }
 ]
+
+    }
+  ]
 
 }
