@@ -141,7 +141,42 @@
     "timestamp": "2025-11-01T08:00:00Z",
     "unreadCount": 0
   }
+], 
+  "conversations": [
+  {
+    "id": 1,
+    "senderName": "Prof. Michael Chen",
+    "messages": [
+      {
+        "fromMe": false,
+        "text": "Thanks for the feedback on my assignment!",
+        "timestamp": "2025-11-02T08:15:00Z"
+      },
+      {
+        "fromMe": true,
+        "text": "You're welcome! Keep up the good work.",
+        "timestamp": "2025-11-02T08:17:00Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "senderName": "Dr. Emily Watson",
+    "messages": [
+      {
+        "fromMe": false,
+        "text": "When is the deadline for the project?",
+        "timestamp": "2025-11-02T07:00:00Z"
+      },
+      {
+        "fromMe": true,
+        "text": "It’s due next Friday, make sure to upload early.",
+        "timestamp": "2025-11-02T07:10:00Z"
+      }
+    ]
+  }
 ]
+
 
 
 }
