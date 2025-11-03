@@ -110,6 +110,53 @@ Home Screen
 └── Announcements
 
 
+
+---
+### Login Screen
+
+<img src="screenshots/login.jpg" alt="Description" width="30%" height="auto">
+
+
+
+---
+### Home Screen
+
+<img src="screenshots/Home_page_learner.jpg" alt="Description" width="30%" height="auto">
+
+---
+
+
+### Programs screen
+
+<img src="screenshots/programs.jpg" alt="Description" width="30%" height="auto">
+
+---
+
+
+### Enroll program
+
+<img src="screenshots/enroll_program.jpg" alt="Description" width="30%" height="auto">
+
+---
+
+### Learning page
+
+<img src="screenshots/learning.jpg" alt="Description" width="30%" height="auto">
+
+---
+
+### Inbox page
+
+<img src="screenshots/Inbox.jpg" alt="Description" width="30%" height="auto">
+
+---
+
+### Feedback page
+
+<img src="screenshots/feedback.jpg" alt="Description" width="30%" height="auto">
+
+---
+
 ## 👥 Target Users
 - **Learners:** Track academic performance, tasks, and communication.  
 - **Educators:** Manage students, courses, and performance insights.
@@ -121,7 +168,10 @@ Home Screen
 - Alternate Registration/Login for Teachers and Students.
 - Course Overview (Home Page) 
 - Program Details Screen
-- Drawer Navigation (Profile, Dashboard)
+- Learning screen
+- Create Program (educators)
+- enrolled courses screen
+- Feedback screen
 
 
 ---
