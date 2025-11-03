@@ -61,7 +61,7 @@
     },
     {
       "id": 3,
-      "email": "carol@example.com",
+      "email": "test_educator@mail.com",
       "role": "educator",
       "enrolledProgramIds": [1, 2]
     },
